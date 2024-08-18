@@ -1,45 +1,33 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# Contanto Inversões
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Conteúdo da Disciplina**: Dividir e Conquistar<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 20/0061216  |  Cleber de Oliveira Brant |
+| 20/0044559  |  Wesley Lira Carvalho |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+O projeto consiste em mostrar 5 gêneros musicais na qual o usuário vai rankear da 1° até o 5° gênero de cima a baixo, e o algoritmo vai rankear o Top 5 gêneros músicais dele. No fim, ele irá te mostrar quantas inversões possui relacionado ao rankeamento que o algoritmo escolheu. O objetivo é mostrar o quanto o seu gosto musical é parecido com o do algoritmo.
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em funcionamento.
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: HTML, CSS e Javascript<br>
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+
+Com o projeto aberto, acesse o terminal e vá até onde o projeto está salvo. Após isso, digite o seguinte comando:
+
+```
+    npm install -g http-server
+```
+
+O comando acima permite que possa subir localmente o projeto em sua máquina. Após ter instalado o http-server, no mesmo terminal e na raiz do projeto insira o seguinte comando: http-server. Uma outra forma de subir localmente o projeto é instalando a extensão Live Server caso esteja pelo Visual Studio Code.
+
+Após subir o projeto, rankeie os gêneros músicais aonde o primeiro gênero da lista é considerada como o gênero musical que você mais agora, e o 5° gênero como o que você menos gosta. Após rankear o seu gosto, clique no botão e aguarde o resultado.
 
 ## Outros 
 Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
-
-
-
-
