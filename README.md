@@ -1,4 +1,4 @@
-# Contanto Inversões
+# Contando Inversões
 
 **Conteúdo da Disciplina**: Dividir e Conquistar<br>
 
