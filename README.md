@@ -12,7 +12,11 @@
 O projeto consiste em mostrar 5 gêneros musicais na qual o usuário vai rankear da 1° até o 5° gênero de cima a baixo, e o algoritmo vai rankear o Top 5 gêneros músicais dele. No fim, ele irá te mostrar quantas inversões possui relacionado ao rankeamento que o algoritmo escolheu. O objetivo é mostrar o quanto o seu gosto musical é parecido com o do algoritmo.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+Menu seleção gostos musicais
+![](./assets/img_menu.jpeg)
+
+Resultado comparação musical
+![](./assets/img_resultados.jpeg)
 
 ## Instalação 
 **Linguagem**: HTML, CSS e Javascript<br>
@@ -30,4 +34,4 @@ O comando acima permite que possa subir localmente o projeto em sua máquina. Ap
 Após subir o projeto, rankeie os gêneros músicais aonde o primeiro gênero da lista é considerada como o gênero musical que você mais agora, e o 5° gênero como o que você menos gosta. Após rankear o seu gosto, clique no botão e aguarde o resultado.
 
 ## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+[Video.](https://www.youtube.com/watch?v=GwTabiNQYxo)
