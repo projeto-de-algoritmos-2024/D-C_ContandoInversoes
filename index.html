@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparador de Gostos Musicais</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Comparador de Gostos Musicais</h1>
+        <div id="formSection">
+            <p>Escolha seus 5 gostos musicais em ordem de prioridade:</p>
+            <form id="preferencesForm">
+                <select name="preference1">
+                    <option value="Rap">Rap</option>
+                    <option value="Funk">Funk</option>
+                    <option value="Sertanejo">Sertanejo</option>
+                    <option value="HipHop">HipHop</option>
+                    <option value="Forro">Forro</option>
+                </select>
+                <select name="preference2">
+                    <option value="Rap">Rap</option>
+                    <option value="Funk">Funk</option>
+                    <option value="Sertanejo">Sertanejo</option>
+                    <option value="HipHop">HipHop</option>
+                    <option value="Forro">Forro</option>
+                </select>
+                <select name="preference3">
+                    <option value="Rap">Rap</option>
+                    <option value="Funk">Funk</option>
+                    <option value="Sertanejo">Sertanejo</option>
+                    <option value="HipHop">HipHop</option>
+                    <option value="Forro">Forro</option>
+                </select>
+                <select name="preference4">
+                    <option value="Rap">Rap</option>
+                    <option value="Funk">Funk</option>
+                    <option value="Sertanejo">Sertanejo</option>
+                    <option value="HipHop">HipHop</option>
+                    <option value="Forro">Forro</option>
+                </select>
+                <select name="preference5">
+                    <option value="Rap">Rap</option>
+                    <option value="Funk">Funk</option>
+                    <option value="Sertanejo">Sertanejo</option>
+                    <option value="HipHop">HipHop</option>
+                    <option value="Forro">Forro</option>
+                </select>
+                <button type="button" onclick="compareMusicPreferences()">Comparar gostos musicais</button>
+            </form>
+        </div>
+        <div id="resultsSection" class="hidden">
+            <center><h2>Resultados</h2></center>
+            <div class="results-container">
+                <div class="result-column">
+                    <p><strong>Seus gostos:</strong></p>
+                    <ul id="userPreferencesList"></ul>
+                </div>
+                <div class="result-column">
+                    <p><strong>Gostos da Máquina:</strong></p>
+                    <ul id="machinePreferencesList"></ul>
+                </div>
+            </div>
+            <p><strong>Quantidade de Inversões:</strong> <span id="inversionsCount"></span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
